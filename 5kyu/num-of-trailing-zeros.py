@@ -7,9 +7,9 @@ def zeros(n):
     # and so on.... until you have less than 5 numbers
     # count = 20+4 = 24
     count = 0
-    while n >= 5:
-        count += int(n / 5)
-        n = n / 5
+    while n:
+        count += n//5
+        n = n//5
     return count
 
 
